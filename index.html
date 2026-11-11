@@ -247,7 +247,7 @@
 
         async function updateStatus() {
             try {
-                const res = await fetch('https://illuxat.com/api/online/GothicaGifs');
+                const res = await fetch('https://illuxat.com/api/online/neskalasaia');
                 const json = await res.json();
                 const dot = document.getElementById('status-dot');
                 const isOnline = json.data?.status?.toLowerCase() === 'online';
@@ -273,7 +273,7 @@
 
     <div id="intro-screen">
         <div class="moldura-flutuante">
-            <img src="https://xatimg.com/image/ZTcJpN5lK3BX.gif">
+            <img src="https://xatimg.com/image/xrAjsh4OfsZC.gif">
             <div id="status-dot" title="Verificando estado..."></div>
         </div>
         <button class="btn-entrar" onclick="entrarGaleria()">Entrar</button>
